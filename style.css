@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+
+}
+
+navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    height: 65px;
+    width: 65px;
+}
+
+navbar ul {
+    position: relative;
+    display: flex;
+
+}
+
+navbar ul li {
+    list-style: none;
+
+}
+
+navbar ul li a {
+    display: inline-block;
+    margin-left: 40px;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textbox {
+    position: relative;
+    max-width: 600px;
+}
+
+.textbox h2 {
+    color: #333;
+    font-size: 4em;
+    line-height: 1.1em;
+    font-weight: 500;
+}
+
+.textbox h2 span {
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.textbox p {
+    color: #333;
+    margin: 15px 0;
+
+}
+
+.textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.imgbox {
+    width: 450px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.imgbox img {
+    max-width: 340px;
+}
+
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+    display: flex;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275)0.5s;
+
+}
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275)0.5s;
+
+}
+
+.thumb li:hover {
+    transform: translateY(-15px);
+}
+
+.thumb li img {
+    max-width: 60px;
+}
+
+.socialicon {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    height: 130px;
+    margin: 0 15px;
+    filter: invert(1);
+}
+
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 750px);
+}
