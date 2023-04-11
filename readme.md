@@ -19,9 +19,7 @@ This landing page was created to showcase the products and services offered by S
 
 - Sleek and modern design
 - Easy-to-read layout
-- Responsive design
 - Interactive animations and transitions
-- Informational sections about the company's products and services
 
 ## Getting Started
 
